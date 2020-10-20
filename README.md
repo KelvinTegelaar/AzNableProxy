@@ -32,5 +32,6 @@ you can also use PowerShell to retrieve this ID easily:
 Q: Why did you write out the XML and not use webservices?
 A: SOAP is regarded legacy by Microsoft, and thus PowerShell 7 does not support Webservices anymore. to get them to work, you can write-out the XML and pass it with Invoke-Restmethod.
 
+
 Q: Why an azure function?
 A: We're a Microsoft house, and we don't like our actual N-central API key flying around. With this all the data you can get is an installation-ID for software. Not the biggest issue.
