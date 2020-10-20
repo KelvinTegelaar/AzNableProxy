@@ -26,3 +26,4 @@ you can also use PowerShell to retrieve this ID easily:
 
      $ID = "101"
      invoke-restmethod -uri "https://aznableproxy1234.azurewebsites.net/api/Get?code=SOMELONGCODEHERE&ID=$($ID)"
+

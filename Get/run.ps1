@@ -51,7 +51,7 @@ $Customers = ForEach ($Entity in $CustomerList) {
 }
 
 
-$Output = $Customers | Where-Object { $_.ID -eq $SpecifiedCustomerID }
+$Output = ($Customers | Where-Object { $_.ID -eq $SpecifiedCustomerID }).RegistrationToken
 # Associate values to output bindings by calling 'Push-OutputBinding'.
 Push-OutputBinding -Name Response -Value ([HttpResponseContext]@{
         StatusCode = [HttpStatusCode]::OK
