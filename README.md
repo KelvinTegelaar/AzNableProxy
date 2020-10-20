@@ -3,7 +3,8 @@ This is a proxy to allow users to retrieve the installation keys for N-Central a
 
 # How to use
 
-https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fKelvinTegelaar%2fAzureDeploy%2fmaster%2fAzNableProxy.json
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fKelvinTegelaar%2fAzureDeploy%2fmaster%2fAzNableProxy.json)
+
 Click on Deploy with Azure button, or download the script from https://github.com/KelvinTegelaar/AzNableProxy
 
 Fill in your information:
